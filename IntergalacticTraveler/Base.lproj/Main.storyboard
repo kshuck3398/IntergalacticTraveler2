@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="983" y="118"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="FfJ-xC-xdg">
             <objects>
-                <viewController id="ZlR-eJ-jvU" sceneMemberID="viewController">
+                <viewController id="ZlR-eJ-jvU" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rLU-WA-xcf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,6 +69,9 @@
                         <viewLayoutGuide key="safeArea" id="uGJ-3O-NXo"/>
                     </view>
                     <navigationItem key="navigationItem" id="A8N-Ou-1O6"/>
+                    <connections>
+                        <outlet property="starImageView" destination="XpQ-4s-aXj" id="zz3-QA-tRt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Xg-8B-LiJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
