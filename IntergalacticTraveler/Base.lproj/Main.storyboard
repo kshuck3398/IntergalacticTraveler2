@@ -28,6 +28,7 @@
                                 <rect key="frame" x="106" y="523" width="202" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Enter The Wormhole"/>
                                 <connections>
                                     <segue destination="ZlR-eJ-jvU" kind="show" id="p3q-cL-nJL"/>
